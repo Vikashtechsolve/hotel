@@ -133,14 +133,14 @@ const TopDestinations = () => {
                 align="center"
             />
             
-            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-16 w-full max-w-7xl'>
+            <div className='flex gap-6 mt-16 w-full overflow-x-auto pb-4 scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 hover:scrollbar-thumb-gray-400'>
                 {destinations.map((destination) => (
                     <div 
                         key={destination.id}
                         onClick={() => handleDestinationClick(destination)}
-                        className='group relative overflow-hidden rounded-xl cursor-pointer shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1'
+                        className='group relative overflow-hidden rounded-xl cursor-pointer shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex-shrink-0 w-72'
                     >
-                        <div className='relative h-48 overflow-hidden'>
+                        <div className='relative h-56 overflow-hidden'>
                             <img 
                                 src={destination.image} 
                                 alt={destination.name}
