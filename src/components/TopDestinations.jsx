@@ -8,55 +8,111 @@ const TopDestinations = () => {
     const destinations = [
         {
             id: 1,
+            name: "Mumbai",
+            country: "India",
+            hotels: "3,245 hotels",
+            image: "https://images.pexels.com/photos/1007426/pexels-photo-1007426.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+        },
+        {
+            id: 2,
+            name: "Delhi",
+            country: "India", 
+            hotels: "2,876 hotels",
+            image: "https://images.pexels.com/photos/789750/pexels-photo-789750.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+        },
+        {
+            id: 3,
+            name: "Goa",
+            country: "India",
+            hotels: "1,654 hotels", 
+            image: "https://images.pexels.com/photos/962464/pexels-photo-962464.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+        },
+        {
+            id: 4,
+            name: "Jaipur",
+            country: "India",
+            hotels: "987 hotels",
+            image: "https://images.pexels.com/photos/3581368/pexels-photo-3581368.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+        },
+        {
+            id: 5,
+            name: "Bangalore",
+            country: "India",
+            hotels: "2,134 hotels",
+            image: "https://images.pexels.com/photos/2846217/pexels-photo-2846217.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+        },
+        {
+            id: 6,
+            name: "Kerala",
+            country: "India",
+            hotels: "1,432 hotels",
+            image: "https://images.pexels.com/photos/3573382/pexels-photo-3573382.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+        },
+        {
+            id: 7,
+            name: "Agra",
+            country: "India",
+            hotels: "756 hotels",
+            image: "https://images.pexels.com/photos/1583339/pexels-photo-1583339.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+        },
+        {
+            id: 8,
+            name: "Udaipur",
+            country: "India",
+            hotels: "543 hotels",
+            image: "https://images.pexels.com/photos/3581368/pexels-photo-3581368.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+        },
+        {
+            id: 9,
             name: "Dubai",
             country: "United Arab Emirates",
             hotels: "2,847 hotels",
             image: "https://images.pexels.com/photos/162031/dubai-tower-arab-khalifa-162031.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
         },
         {
-            id: 2,
+            id: 10,
             name: "Singapore",
             country: "Singapore",
             hotels: "1,234 hotels",
             image: "https://images.pexels.com/photos/7740160/pexels-photo-7740160.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
         },
         {
-            id: 3,
+            id: 11,
             name: "New York",
             country: "United States",
             hotels: "3,456 hotels",
             image: "https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
         },
         {
-            id: 4,
+            id: 12,
             name: "London",
             country: "United Kingdom",
             hotels: "2,189 hotels",
             image: "https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
         },
         {
-            id: 5,
+            id: 13,
             name: "Tokyo",
             country: "Japan",
             hotels: "1,876 hotels",
             image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
         },
         {
-            id: 6,
+            id: 14,
             name: "Paris",
             country: "France",
             hotels: "2,543 hotels",
             image: "https://images.pexels.com/photos/161853/eiffel-tower-paris-france-tower-161853.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
         },
         {
-            id: 7,
+            id: 15,
             name: "Bangkok",
             country: "Thailand",
             hotels: "1,654 hotels",
             image: "https://images.pexels.com/photos/1007426/pexels-photo-1007426.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
         },
         {
-            id: 8,
+            id: 16,
             name: "Sydney",
             country: "Australia",
             hotels: "987 hotels",
